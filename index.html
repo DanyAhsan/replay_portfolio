@@ -13,8 +13,8 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            background-color: #f9fafb;
-            color: #1f2937;
+            background-color: #1a202c; /* Dark background */
+            color: #ffffff; /* White text */
             line-height: 1.6;
         }
 
@@ -32,7 +32,7 @@
         header h1 {
             font-size: 3.5rem;
             font-weight: bold;
-            color: #1f2937;
+            color: #ffffff; /* White text */
             margin-bottom: 1rem;
         }
 
@@ -42,7 +42,7 @@
 
         header p {
             font-size: 1.5rem;
-            color: #6b7280;
+            color: #cbd5e0; /* Light grey for subtitle */
         }
 
         .projects {
@@ -52,7 +52,7 @@
         }
 
         .project-card {
-            background-color: white;
+            background-color: #2d3748; /* Darker card background */
             border-radius: 1rem;
             padding: 1.5rem;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -65,7 +65,6 @@
 
         .project-card:hover {
             transform: scale(1.05);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
             border: 2px solid #24AA4A;
             box-shadow: 0 0 15px rgba(36, 170, 74, 0.5);
         }
@@ -79,13 +78,12 @@
 
         .project-image {
             height: 12rem;
-          
             border-radius: 0.5rem;
             margin-bottom: 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #6b7280;
+            color: #a0aec0; /* Grey placeholder color */
         }
 
         .contact {
@@ -94,7 +92,7 @@
             text-align: center;
         }
 
-        .contact p{
+        .contact p {
             margin-top: 1rem;
         }
 
@@ -110,12 +108,12 @@
         }
 
         .contact-btn:hover {
-            background-color: #24AA4A;
+            background-color: #1c7a3a;
         }
 
         footer {
             text-align: center;
-            color: #6b7280;
+            color: #a0aec0; /* Light grey footer text */
             padding: 1rem;
         }
     </style>
@@ -134,7 +132,7 @@
                 </svg>
                 <h3>Android Ice Hockey Game</h3>
                 <div class="project-image">
-              <img src="pics/ice_hockey.png"  style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                    <img src="pics/ice_hockey.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
                 </div>
                 <p>Mobile game developed with Android SDK, featuring competitive ice hockey gameplay.</p>
             </a>
@@ -145,8 +143,8 @@
                 </svg>
                 <h3>Flying Bird Survival Game</h3>
                 <div class="project-image">
-                  <img src="pics/flying_bird.png" alt="Ice Hockey Game Screenshot" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-              </div>
+                    <img src="pics/flying_bird.png" alt="Ice Hockey Game Screenshot" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                </div>
                 <p>Plane survival game where players dodge flying birds in challenging aerial environments.</p>
             </a>
 
